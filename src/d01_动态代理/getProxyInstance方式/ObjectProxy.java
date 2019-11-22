@@ -1,13 +1,13 @@
-package d01_动态代理;
+package d01_动态代理.getProxyInstance方式;
 
 
 import java.lang.reflect.Proxy;
 
-public class CalculatorProxy {
+public class ObjectProxy {
 
     private Object target;
 
-    public CalculatorProxy(Object target) {
+    public ObjectProxy(Object target) {
         this.target = target;
 
     }
@@ -16,7 +16,7 @@ public class CalculatorProxy {
     public Object getProxy(){
 
         
-        ClassLoader classLoader=CalculatorProxy.class.getClassLoader();
+        ClassLoader classLoader= ObjectProxy.class.getClassLoader();
 
         Class<?>[] interfaces = target.getClass().getInterfaces();
 
