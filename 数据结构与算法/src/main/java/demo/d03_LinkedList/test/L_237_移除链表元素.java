@@ -3,7 +3,7 @@ package demo.d03_LinkedList.test;
 
 import demo.d03_LinkedList.ListNode;
 
-public class LeetCode237 {
+public class L_237_移除链表元素 {
 
 
 
