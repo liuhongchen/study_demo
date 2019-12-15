@@ -1,6 +1,6 @@
 package 练习;
 
-import org.jetbrains.annotations.NotNull;
+
 
 public class L_138_复制带随机指针的链表 {
 
@@ -19,7 +19,7 @@ public class L_138_复制带随机指针的链表 {
     }
 
 
-    public Node copyRandomList(@NotNull Node head) {
+    public Node copyRandomList(Node head) {
         Node node=new Node();
         node.val=head.val;
         node.next=head.next;
