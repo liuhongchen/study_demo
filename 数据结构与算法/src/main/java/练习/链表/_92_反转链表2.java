@@ -5,7 +5,7 @@ import demo.d03_LinkedList.ListNode;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class L_92_反转链表2 {
+public class _92_反转链表2 {
 
 
     public ListNode reverseBetween(ListNode head, int m, int n) {

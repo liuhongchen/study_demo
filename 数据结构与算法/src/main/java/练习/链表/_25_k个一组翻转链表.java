@@ -10,7 +10,7 @@ import demo.d03_LinkedList.ListNode;
  * @date:2019-12-15 15:01
  * @author:892698613@qq.com
  */
-public class L_25_k个一组翻转链表 {
+public class _25_k个一组翻转链表 {
 
     public static ListNode reverseKGroup(ListNode head, int k) {
         if(head==null||k==1) return head;

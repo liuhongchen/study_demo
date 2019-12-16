@@ -2,7 +2,7 @@ package 练习.链表;
 
 
 
-public class L_138_复制带随机指针的链表 {
+public class _138_复制带随机指针的链表 {
 
     class Node {
         public int val;

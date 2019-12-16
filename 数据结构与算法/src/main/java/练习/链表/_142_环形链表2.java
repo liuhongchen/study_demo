@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 
-public class L_142_环形链表2 {
+public class _142_环形链表2 {
 
     public ListNode detectCycle(ListNode head) {
         if (head == null) return null;

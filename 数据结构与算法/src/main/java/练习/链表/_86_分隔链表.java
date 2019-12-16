@@ -10,7 +10,7 @@ import demo.d03_LinkedList.ListNode;
  * @date:2019-12-15 16:22
  * @author:892698613@qq.com
  */
-public class L_86_分隔链表 {
+public class _86_分隔链表 {
 
     public static ListNode partition(ListNode head, int x) {
         if (head==null||head.next==null) return head;

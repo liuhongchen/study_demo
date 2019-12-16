@@ -2,7 +2,7 @@ package 练习.链表;
 
 import demo.d03_LinkedList.ListNode;
 
-public class L_234_回文链表 {
+public class _234_回文链表 {
 
     public static boolean isPalindrome(ListNode head) {
         if (head==null|| head.next == null) return true;

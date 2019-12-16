@@ -5,7 +5,7 @@ import demo.d03_LinkedList.ListNode;
 
 import java.util.Stack;
 
-public class L_61_旋转链表 {
+public class _61_旋转链表 {
 
     public static ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) return head;

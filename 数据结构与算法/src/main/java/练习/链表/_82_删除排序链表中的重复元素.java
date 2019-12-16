@@ -4,7 +4,7 @@ import demo.d03_LinkedList.ListNode;
 
 import java.util.*;
 
-public class L_82_删除排序链表中的重复元素 {
+public class _82_删除排序链表中的重复元素 {
 
 
     /**
