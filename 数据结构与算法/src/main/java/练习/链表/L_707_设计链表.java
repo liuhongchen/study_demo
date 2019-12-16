@@ -1,4 +1,4 @@
-package 练习;
+package 练习.链表;
 
 
 public class L_707_设计链表 {
