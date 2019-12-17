@@ -8,24 +8,23 @@ public class _1047_删除字符串中的所有相邻重复项 {
         if (S==null|| S.isEmpty())return S;
 
         Stack<Character> stack=new Stack<>();
-        int len=S.length();
+        int len = S.length();
         for (int i=0;i<len;i++){
             char c=S.charAt(i);
             if (stack.size()==0){
                 stack.push(c);
             }else {
-                Character pop = stack.pop();
-                if (pop!=c){
-                    stack.push(pop);
+                if (stack.peek()!=c){
                     stack.push(c);
+                }else{
+                    stack.pop();
                 }
             }
         }
         StringBuilder sb=new StringBuilder();
-        while (stack.size()>0){
-            sb.append(stack.pop());
+        for (char c:stack){
+            sb.append(c);
         }
-        sb.reverse();
         return sb.toString();
 
     }
