@@ -1,4 +1,4 @@
-package demo.d05_SingleCircleLinkedList.test;
+package 练习.链表;
 
 import demo.d05_SingleCircleLinkedList.SingleCircleLinkedList;
 

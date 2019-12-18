@@ -1,4 +1,4 @@
-package demo.d03_LinkedList.test;
+package 练习.链表;
 
 import demo.d03_LinkedList.ListNode;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package demo.d06_LinkedList练习;
+package 练习.链表;
 
 import demo.d03_LinkedList.ListNode;
 
