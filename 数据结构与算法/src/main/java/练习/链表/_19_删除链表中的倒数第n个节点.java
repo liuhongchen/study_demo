@@ -7,7 +7,7 @@ import java.util.LinkedList;
 /**
  * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
  */
-public class L_19_删除链表中的倒数第n个节点 {
+public class _19_删除链表中的倒数第n个节点 {
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode temp=head;

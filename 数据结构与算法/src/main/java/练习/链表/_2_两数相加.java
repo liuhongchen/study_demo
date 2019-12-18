@@ -14,7 +14,7 @@ import java.util.List;
  * @date:2019-12-10 22:39
  * @author:892698613@qq.com
  */
-public class L_2_两数相加 {
+public class _2_两数相加 {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1==null&&l2==null)return null;

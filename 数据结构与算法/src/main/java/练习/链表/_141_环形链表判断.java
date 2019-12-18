@@ -10,7 +10,7 @@ import demo.d03_LinkedList.ListNode;
  * @date:2019-11-27 16:25
  * @author:892698613@qq.com
  */
-public class L_141_环形链表判断 {
+public class _141_环形链表判断 {
 
 
     public class Solution {

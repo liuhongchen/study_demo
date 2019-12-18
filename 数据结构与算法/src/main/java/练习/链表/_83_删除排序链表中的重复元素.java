@@ -10,7 +10,7 @@ import demo.d03_LinkedList.ListNode;
  * @date:2019-12-10 13:44
  * @author:892698613@qq.com
  */
-public class L_83_删除排序链表中的重复元素 {
+public class _83_删除排序链表中的重复元素 {
 
 
     public ListNode deleteDuplicates(ListNode head) {

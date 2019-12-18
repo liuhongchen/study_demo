@@ -10,7 +10,7 @@ import demo.d03_LinkedList.ListNode;
  * @date:2019-12-10 13:52
  * @author:892698613@qq.com
  */
-public class L_876_链表的中间结点 {
+public class _876_链表的中间结点 {
     public ListNode middleNode1(ListNode head) {
         if (head == null) return null;
         int length = 0;

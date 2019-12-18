@@ -2,7 +2,7 @@ package 练习.链表;
 
 import demo.d03_LinkedList.ListNode;
 
-public class L_21_合并两个有序链表 {
+public class _21_合并两个有序链表 {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1==null) return l2;

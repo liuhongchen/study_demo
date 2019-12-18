@@ -8,7 +8,7 @@ package 练习.链表;
 
 import demo.d03_LinkedList.ListNode;
 
-public class L_24_两两交换链表中的值 {
+public class _24_两两交换链表中的值 {
 
 
     /**

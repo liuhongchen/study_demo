@@ -12,7 +12,7 @@ import org.junit.Test;
  * @author:892698613@qq.com
  */
 
-public class L_206_反转链表 {
+public class _206_反转链表 {
 
 
 

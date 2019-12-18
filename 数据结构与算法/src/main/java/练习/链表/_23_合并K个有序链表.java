@@ -5,7 +5,7 @@ import demo.d03_LinkedList.ListNode;
 import java.util.*;
 
 @SuppressWarnings("unchecked")
-public class L_23_合并K个有序链表 {
+public class _23_合并K个有序链表 {
 
 
     public static void main(String[] args) {
