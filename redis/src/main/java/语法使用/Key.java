@@ -28,8 +28,8 @@ public class Key {
             System.out.println("获取username:"+ jedis.get("username"));
 
             System.out.println("系统中所有键如下:");
-            Set<String> keys=jedis.keys("*");
-            System.out.println(keys);
+//            Set<String> keys=jedis.keys("*");
+//            System.out.println(keys);
 
             System.out.println("删除username"+jedis.del("username"));
             System.out.println("判断username是否存在:"+jedis.exists("username"));
