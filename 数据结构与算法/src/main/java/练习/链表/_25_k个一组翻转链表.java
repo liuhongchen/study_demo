@@ -1,6 +1,6 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 /**
  * ClassName:L_25_k个一组翻转链表

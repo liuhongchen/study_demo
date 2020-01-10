@@ -6,7 +6,7 @@ package 练习.链表;
  * 要实际交换节点，而不是仅仅交换值
  */
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 public class _24_两两交换链表中的值 {
 

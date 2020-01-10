@@ -1,6 +1,6 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 public class _234_回文链表 {
 

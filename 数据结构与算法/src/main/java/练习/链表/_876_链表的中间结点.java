@@ -1,10 +1,10 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 /**
  * ClassName:L_876_链表的中间结点
- * Package:demo.d03_LinkedList.test
+ * Package:com.d03_LinkedList.test
  * Description:
  *
  * @date:2019-12-10 13:52

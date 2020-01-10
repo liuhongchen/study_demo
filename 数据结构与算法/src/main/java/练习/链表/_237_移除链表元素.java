@@ -1,7 +1,7 @@
 package 练习.链表;
 
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 public class _237_移除链表元素 {
 

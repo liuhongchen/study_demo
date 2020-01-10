@@ -14,7 +14,7 @@
        http://www.springframework.org/schema/cache
        http://www.springframework.org/schema/cache/spring-cache.xsd">
 
-    <context:property-placeholder location="redis-config.properties"/>
+    <context:property-placeholder location="redis-com.config.properties"/>
 
     <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
         <property name="maxIdle" value="${redis.maxIdle}"/>

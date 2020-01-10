@@ -1,10 +1,10 @@
 package 练习.链表;
 
-import demo.d05_SingleCircleLinkedList.SingleCircleLinkedList;
+import com.d05_SingleCircleLinkedList.SingleCircleLinkedList;
 
 /**
  * ClassName:约瑟夫问题
- * Package:demo.d05_SingleCircleLinkedList.test
+ * Package:com.d05_SingleCircleLinkedList.test
  * Description:
  *
  * @date:2019-12-10 20:56

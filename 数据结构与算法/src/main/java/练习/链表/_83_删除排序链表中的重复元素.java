@@ -1,10 +1,10 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 /**
  * ClassName:L_83_删除排序链表中的重复元素
- * Package:demo.d03_LinkedList.test
+ * Package:com.d03_LinkedList.test
  * Description:
  *
  * @date:2019-12-10 13:44

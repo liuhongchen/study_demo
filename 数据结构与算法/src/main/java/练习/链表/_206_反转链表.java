@@ -1,11 +1,10 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
-import org.junit.Test;
+import com.d03_LinkedList.ListNode;
 
 /**
  * ClassName:LeetCode206
- * Package:demo.d03_LinkedList.test
+ * Package:com.d03_LinkedList.test
  * Description: 翻转链表
  *
  * @date:2019-11-27 15:11

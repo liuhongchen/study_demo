@@ -1,10 +1,10 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 /**
  * ClassName:LeetCode141
- * Package:demo.d03_LinkedList.test
+ * Package:com.d03_LinkedList.test
  * Description:
  *
  * @date:2019-11-27 16:25

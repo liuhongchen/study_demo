@@ -1,14 +1,13 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
  * ClassName:L_2_两数相加
- * Package:demo.d06_LinkedList练习
+ * Package:com.demo.d06_LinkedList练习
  * Description:https://leetcode-cn.com/problems/add-two-numbers/
  *
  * @date:2019-12-10 22:39

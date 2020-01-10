@@ -13,7 +13,7 @@
 
 
 <!--    id是请求uri,需要以/开头-->
-    <bean id="/hello" class="controller.MyController"/>
+    <bean id="/hello" class="com.controller.MyController"/>
 
 
 <!--    指定视图解析器,现在就可以把所有jsp文件放在WEB-INF目录下的jsp目录,然后返回视图的时候只写文件名不包括前缀-->

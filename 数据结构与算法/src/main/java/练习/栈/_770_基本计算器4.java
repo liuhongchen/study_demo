@@ -20,5 +20,6 @@ public class _770_基本计算器4 {
 
             }
         }
+        return null;
     }
 }

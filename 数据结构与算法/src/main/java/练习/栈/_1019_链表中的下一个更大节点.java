@@ -1,6 +1,6 @@
 package 练习.栈;
 
-import demo.d03_LinkedList.ListNode;
+import com.d03_LinkedList.ListNode;
 
 import java.util.ArrayList;
 import java.util.Stack;

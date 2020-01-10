@@ -1,8 +1,6 @@
 package 练习.链表;
 
-import demo.d03_LinkedList.ListNode;
-
-import java.util.LinkedList;
+import com.d03_LinkedList.ListNode;
 
 /**
  * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
