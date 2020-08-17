@@ -18,27 +18,24 @@ public class _95_不同的BST2 {
     public List<TreeNode> generateTrees(int n) {
         ans=new ArrayList<>();
 
-        generate(n,1,null);
+        generate(n,1,null,0);
         return ans;
 
     }
 
-    public TreeNode generate(int n,int base,TreeNode parent){
-        if (n<=0) {
-            return null;
-        }else if (n==1) {
-            return new TreeNode(base);
-        }
-
+    public TreeNode generate(int n,int base,TreeNode parent,int depth){
+        if (n<base) return null;
 
         //i是root的val
         for (int i=base;i<=n;i++){
             TreeNode root=new TreeNode(i);
             if (parent==null)parent=root;
-            generate(i-base,base,parent);
-            generate(n-i,i+1,parent);
-
+            generate(i-base,base,parent,depth+1);
+            generate(n-i,i+1,parent,depth+1);
         }
+
+        if (depth==0) ans.add(parent);
+        return null;
 
     }
 

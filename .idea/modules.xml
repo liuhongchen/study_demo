@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/redis-sub/redis-sub.iml" filepath="$PROJECT_DIR$/redis-sub/redis-sub.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-sub2/redis-sub2.iml" filepath="$PROJECT_DIR$/redis-sub2/redis-sub2.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session/session.iml" filepath="$PROJECT_DIR$/session/session.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/spring-data-redis/spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-anno/springmvc-anno.iml" filepath="$PROJECT_DIR$/springmvc-anno/springmvc-anno.iml" />

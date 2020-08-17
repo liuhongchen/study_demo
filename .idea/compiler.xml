@@ -9,23 +9,25 @@
         <module name="redis" />
         <module name="redis-sub" />
         <module name="redis-sub2" />
+        <module name="springmvc" />
         <module name="数据结构与算法" />
-        <module name="spring-data-redis" />
         <module name="provider1" />
         <module name="springmvc-anno" />
         <module name="redis-pub" />
-        <module name="springmvc" />
+        <module name="session" />
+        <module name="spring-data-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="redis" target="8" />
-      <module name="redis-pub" target="8" />
-      <module name="redis-sub" target="8" />
-      <module name="redis-sub2" target="8" />
-      <module name="spring-data-redis" target="8" />
-      <module name="springmvc" target="8" />
-      <module name="springmvc-anno" target="8" />
-      <module name="数据结构与算法" target="8" />
+      <module name="redis" target="1.5" />
+      <module name="redis-pub" target="1.5" />
+      <module name="redis-sub" target="1.5" />
+      <module name="redis-sub2" target="1.5" />
+      <module name="session" target="1.5" />
+      <module name="spring-data-redis" target="1.5" />
+      <module name="springmvc" target="1.5" />
+      <module name="springmvc-anno" target="1.5" />
+      <module name="数据结构与算法" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

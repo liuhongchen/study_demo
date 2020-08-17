@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/redis-pub/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/session/pom.xml" />
       </list>
     </option>
   </component>
