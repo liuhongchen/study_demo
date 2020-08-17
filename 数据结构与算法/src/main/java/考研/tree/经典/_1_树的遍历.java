@@ -1,4 +1,4 @@
-package 考研.tree;
+package 考研.tree.经典;
 
 
 import org.junit.Test;
