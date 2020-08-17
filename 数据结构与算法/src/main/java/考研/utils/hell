@@ -1,0 +1,5 @@
+        Node node2=new Node(1);
+        node2.next=new Node(2);
+        node2.next.next=new Node(3);
+        node2.next.next.next=new Node(4);
+        node2.next.next.next.next=new Node(5);
