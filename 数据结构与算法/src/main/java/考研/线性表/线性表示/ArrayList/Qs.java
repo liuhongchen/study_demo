@@ -1,7 +1,7 @@
 package 考研.线性表.线性表示.ArrayList;
 
 import org.junit.Test;
-import 考研.utils.MyUtil;
+import utils.MyUtil;
 
 import java.util.ArrayList;
 

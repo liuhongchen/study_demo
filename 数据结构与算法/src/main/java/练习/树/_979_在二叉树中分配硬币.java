@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_979_在二叉树中分配硬币
  * Package:练习.树

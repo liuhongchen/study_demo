@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_114_二叉树展开为链表原地
  * Package:练习.树

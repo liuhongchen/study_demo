@@ -1,6 +1,6 @@
 package 练习.树;
 
-import java.util.Stack;
+import model.TreeNode;
 
 /**
  * ClassName:_700_二叉树中的搜索

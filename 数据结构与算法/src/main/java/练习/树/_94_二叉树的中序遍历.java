@@ -1,9 +1,9 @@
 package 练习.树;
 
+import model.TreeNode;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**

@@ -2,8 +2,8 @@ package 考研.tree.经典;
 
 
 import org.junit.Test;
-import 练习.树.TreeNode;
-import 考研.utils.MyUtil;
+import model.TreeNode;
+import utils.MyUtil;
 
 import java.util.ArrayList;
 import java.util.List;

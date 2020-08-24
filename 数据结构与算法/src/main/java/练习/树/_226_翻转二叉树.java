@@ -1,8 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
 import org.junit.Test;
-
-import java.util.logging.Level;
 
 /**
  * ClassName:_226_翻转二叉树

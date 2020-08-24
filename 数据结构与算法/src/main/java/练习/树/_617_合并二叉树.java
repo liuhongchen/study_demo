@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_617_合并二叉树
  * Package:练习.树

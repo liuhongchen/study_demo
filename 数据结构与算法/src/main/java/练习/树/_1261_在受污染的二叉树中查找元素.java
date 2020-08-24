@@ -1,8 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
 import org.junit.Test;
-
-import java.util.Stack;
 
 /**
  * ClassName:_1261_在受污染的二叉树中查找元素

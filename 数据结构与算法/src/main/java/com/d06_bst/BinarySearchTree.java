@@ -1,7 +1,5 @@
 package com.d06_bst;
 
-import 练习.树.TreeNode;
-
 import java.util.Comparator;
 
 /**

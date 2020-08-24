@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_965_单值二叉树
  * Package:练习.树

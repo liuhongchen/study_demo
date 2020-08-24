@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_701_BST插入
  * Package:练习.树

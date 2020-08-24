@@ -1,4 +1,4 @@
-package 练习.树;
+package model;
 
 /**
  * ClassName:TreeNode

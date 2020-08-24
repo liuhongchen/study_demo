@@ -1,8 +1,8 @@
 package 考研.栈与队列.应用;
 
 import org.junit.Test;
-import 练习.树.TreeNode;
-import 考研.utils.MyUtil;
+import model.TreeNode;
+import utils.MyUtil;
 
 import java.util.LinkedList;
 import java.util.Queue;

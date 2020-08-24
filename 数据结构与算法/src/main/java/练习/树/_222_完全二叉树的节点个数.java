@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_222_完全二叉树的节点个数
  * Package:练习.树

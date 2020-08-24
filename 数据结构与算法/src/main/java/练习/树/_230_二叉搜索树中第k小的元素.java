@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 import java.util.Stack;
 
 /**

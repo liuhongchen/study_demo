@@ -1,7 +1,8 @@
 package 练习.树;
 
+import model.TreeNode;
+
 import java.util.Arrays;
-import java.util.Stack;
 
 /**
  * ClassName:_1008_先序遍历构造二叉树

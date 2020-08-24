@@ -1,9 +1,9 @@
 package 考研.树;
 
 import org.junit.Test;
-import 练习.树.TreeNode;
+import model.TreeNode;
 import 练习.树.TreeUtil;
-import 考研.utils.MyUtil;
+import utils.MyUtil;
 
 import java.util.*;
 

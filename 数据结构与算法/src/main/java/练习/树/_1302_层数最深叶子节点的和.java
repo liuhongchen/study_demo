@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_1302_层数最深叶子节点的和
  * Package:练习.树

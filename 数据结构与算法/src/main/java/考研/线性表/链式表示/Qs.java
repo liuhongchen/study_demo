@@ -2,7 +2,7 @@ package 考研.线性表.链式表示;
 
 
 import org.junit.Test;
-import 考研.utils.MyUtil;
+import utils.MyUtil;
 
 import java.util.*;
 

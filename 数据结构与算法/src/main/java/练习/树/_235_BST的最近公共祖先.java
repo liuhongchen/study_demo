@@ -1,8 +1,8 @@
 package 练习.树;
 
-import java.util.ArrayList;
+import model.TreeNode;
+
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 /**

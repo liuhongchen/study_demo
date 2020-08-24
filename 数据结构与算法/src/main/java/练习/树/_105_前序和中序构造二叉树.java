@@ -1,5 +1,7 @@
 package 练习.树;
 
+import model.TreeNode;
+
 /**
  * ClassName:_105_前序和中序构造二叉树
  * Package:练习.树

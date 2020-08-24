@@ -1,7 +1,7 @@
-package 考研.utils;
+package utils;
 
 
-import 练习.树.TreeNode;
+import model.TreeNode;
 import 考研.线性表.链式表示.Node;
 
 import java.util.LinkedList;
