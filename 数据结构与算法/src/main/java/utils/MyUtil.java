@@ -75,6 +75,15 @@ public class MyUtil {
         return root;
     }
 
+    private static TreeNode createTreeByArr(Integer[] arr,int index){
+        if (arr[index]==null)return null;
+        TreeNode node=new TreeNode(arr[index]);
+        if (2*index+2<arr.length){
+            node.left=createTreeByArr(arr,2*index+1);
+            node.right=createTreeByArr(arr,2*index+2);
+        }
+        return node;
+    }
     public static void printTree(TreeNode tree) {
 
     }
