@@ -1,7 +1,5 @@
 package demo01;
 
-import demo01.MyThread;
-
 /**
  * ClassName:demo01.Main
  * Package:PACKAGE_NAME
