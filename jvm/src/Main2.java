@@ -1,3 +1,5 @@
+import hello.String;
+
 /**
  * ClassName:Main2
  * Package:PACKAGE_NAME

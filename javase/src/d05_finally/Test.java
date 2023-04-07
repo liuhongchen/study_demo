@@ -11,18 +11,16 @@ package d05_finally;
 public class Test {
 
     public static void main(String[] args) {
-//        System.out.println(test1(2));
-        System.out.println(test(0));
-        System.out.println(test(1));
+        System.out.println(test1(2));//输出8
     }
 
-
     public static int test1(int n){
+        int r;
         try {
-            int r=n*n;
-            return r;
+            r=n*n;
+            return r*2;
         }finally {
-            if (n==2) return 0;
+            if(n==2) r=5;
         }
     }
 
