@@ -19,13 +19,15 @@ public class CustomProducer {
     properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
     properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
+    properties.put(ProducerConfig.PARTITIONER_CLASS_CONFIG,"com.hansing.kafka.producer.partitioner.MyPartitioner");
+
     //1 创建生产者对象
 
     KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
 
     //2 发送数据
     for (int i = 0; i < 5; i++) {
-      kafkaProducer.send(new ProducerRecord<>("first", "callback data:" + i)).get();
+      kafkaProducer.send(new ProducerRecord<>("first", "hello : " + i)).get();
     }
 
     //3 关闭资源
