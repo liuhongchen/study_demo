@@ -2,17 +2,16 @@ package com.hansing.kafka.producer;
 
 
 import com.hansing.kafka.constants.MyKafkaConstants;
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
 public class CustomProducer {
 
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws ExecutionException, InterruptedException {
 
     // 配置
     Properties properties = new Properties();
@@ -26,7 +25,7 @@ public class CustomProducer {
 
     //2 发送数据
     for (int i = 0; i < 5; i++) {
-      kafkaProducer.send(new ProducerRecord<>("first", "hello:"+i));
+      kafkaProducer.send(new ProducerRecord<>("first", "callback data:" + i)).get();
     }
 
     //3 关闭资源
