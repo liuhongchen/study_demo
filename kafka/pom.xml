@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hansing</groupId>
-    <artifactId>zk</artifactId>
+    <artifactId>kafka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zk</name>
+    <name>kafka</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>8</java.version>
@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -30,13 +30,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.5.7</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>3.0.0</version>
         </dependency>
     </dependencies>
 

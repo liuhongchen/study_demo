@@ -1,6 +1,7 @@
 package com.hansing.zk;
 
 import org.apache.zookeeper.*;
+import org.apache.zookeeper.data.Stat;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,6 +14,7 @@ public class ZkClient {
             "127.0.0.1:2184";
     private int sessionTimeout=2000;
     ZooKeeper zkClient;
+
     @Before
     public void init() throws IOException {
 
@@ -20,17 +22,26 @@ public class ZkClient {
                 new Watcher() {
             @Override
             public void process(WatchedEvent watchedEvent) {
-                System.out.println(watchedEvent.toString());
+
+                try {
+                    List<String> children=zkClient.getChildren("/",true);
+
+                    for(String child:children){
+                        System.out.println(child);
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         });
     }
-//
-//    @Test
-//    public void create() throws KeeperException, InterruptedException {
-//        String s = zkClient.create("/java", "ss.avi".getBytes(),
-//                ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
-//        System.out.println(s);
-//    }
+
+    @Test
+    public void create() throws KeeperException, InterruptedException {
+        String s = zkClient.create("/java", "ss.avi".getBytes(),
+                ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        System.out.println(s);
+    }
 
 
     @Test
@@ -41,6 +52,13 @@ public class ZkClient {
             System.out.println(child);
         }
         Thread.sleep(Long.MAX_VALUE);
+    }
+
+
+    @Test
+    public void exists() throws KeeperException, InterruptedException {
+        Stat stat = zkClient.exists("/java", false);
+        System.out.println(stat==null?"not exists":"exists");
     }
 
 }
